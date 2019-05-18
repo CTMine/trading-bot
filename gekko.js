@@ -19,6 +19,9 @@
   it is working.
 
 */
+require('dotenv').config();
+console.log('user:', process.env.SYS_USER);
+
 
 console.log(`
     ______   ________  __    __  __    __   ______
